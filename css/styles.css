@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,300;0,400;1,200&family=Roboto:wght@300&display=swap');
+*{
+    box-sizing: border-box;
+}
+/*Barra descuento*/
+.barra{
+    background-color: #1CD1B0;
+    color:black;
+    font-weight: bold;
+    font-size: 15px;
+    height: 38px;
+    line-height: 17.58px;
+    padding-top: 11px;
+    padding-left: 20px;
+    margin-bottom: auto;
+    width: auto;
+}
+/*Letra para toda la página*/
+body{
+    font-family: 'Roboto', sans-serif;
+}
+/*Título Héroes*/
+.heroes{
+    color:black;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 46.88px;
+    height: 101px;
+    top: 66px;
+    left: 28px;
+    background-color: #00669F;
+    margin-top: auto;
+    padding: 25px;
+    box-shadow: 2px 8px 2px 1px rgba(0, 0, 0, 0.2);
+    width: 1483px;
+    }
+.position-fixed{
+    position: fixed;
+}
+/*tarjetas*/
+main{
+    margin: 250px 90px;
+}
+div{
+    margin-top: 200px;
+}
+article{
+    display: inline-block;
+    width: 350px;
+    height: 600px;
+    border-bottom: 2px rgb(177, 171, 171) solid ;
+    margin-left: 60px;
+    padding: 5px;
+    position: relative;
+}
+i{
+    color:#CC2424;
+    position:absolute;
+    top: 20px;
+    left:25px;
+    font-size: 28px;
+}
+/*Imagen redonda*/
+.redondo{
+    border-radius: 60px;
+    position: absolute;
+    top:160px;
+    left: 120px;
+}
+/*Texto de las cards*/
+h2{
+    text-align: center;
+}
+p{
+    font-weight: 400px;
+    font-size: 16px;
+    line-height: 18.75px;
+    text-align: left;
+    color: #333333;
+    width: 267px;
+    height: 113px;
+    left: 48px;
+    margin: auto;
+}
+p.ver-mas{
+    background-color: #00669F;
+    padding-top: 15px;
+    text-align: center;
+    width: 128.78px;
+    height: 48.52px;
+    position: absolute;
+    top: 500px;
+    left: 120px;
+    font-weight: 400px;
+    font-size: 15px;
+    line-height: 17.58px;
+    color: #F3F3F3;
+}
+/*Footer*/
+.derechos-reservados{
+    color: white;
+    font-weight: 400px;
+    font-size: 16px;
+    height: 51px;
+    line-height: 18.75px;
+    background-color: #00669F;
+    padding: 16px;
+    width: auto;
+}
