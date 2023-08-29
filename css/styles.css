@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,300;0,400;1,200&family=Roboto:wght@300&display=swap');
 *{
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 /*Barra descuento*/
 .barra{
@@ -107,3 +109,20 @@ p.ver-mas{
     padding: 16px;
     width: auto;
 }
+
+@media (max-width: 480px) {
+    article{
+        display: inline-block;
+        width: 350px;
+        height: 600px;
+        border-bottom: 2px rgb(177, 171, 171) solid ;
+        margin-left: 15px;
+        padding: 5px;
+        position: relative;
+    }
+    main{
+        margin: auto;
+        padding-top: 150px ;
+    }
+}
+
