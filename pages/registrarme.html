@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/pages/stylesregistrar.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+</head>
+<body>
+        <!---Barra descuento-->
+    <section>
+        <p class="barra">Descuentos 20%</p> <!---Background y letra negra-->
+        <!--Heroes background y letra negra, barra fija al hacer skroll-->
+    <header class="position-fixed">
+        <img src="/img/logo 1.jpg" alt="Tienda" class="tienda">
+        <h1 class="heroes">Nombre Tienda</h1>
+            <p class="formulario">
+                <a href="/index.html"><span class="registrar">Atrás</span></a>
+        </section>
+    </header>
+    <main>
+        <!-- Tarjetas-->
+        <article>
+            <h2>
+                REGISTRATE AQUÍ
+            </h2>
+            <form action="/">
+            <p class="datos">
+                <label for="Nombre" > Nombre:
+                <input type="text" name="nombrePersona" id="Nombre" placeholder="Ej: Ana Maria" required>
+                </label>
+                <label for="Apellido"> Apellido:
+                <input type="text" name="apellidoPersona" id="Apellido" placeholder="Ej: Ramírez" required>
+                </label>
+                <label for="tel"> Celular:
+                    <input type="tel" name="telefono" id="tel" placeholder="Número celular">
+                </label>
+                <label for="email"> Correo:
+                    <input type="email" name="correo" id="email" placeholder="heroesregistar@gmail.com" required>
+                </label>
+                <label for="pass">Contraseña:
+                    <input type="password" name="pass" id="pass" placeholder="Nueva contraseña" required>
+                </label>
+                <label for="fechaNacimiento"> Fecha de nacimiento
+                    <input type="date" name="fechaNacimiento" value="1994-04-26" required>
+                </label>
+                <label for="gender">Género:
+                    <input type="radio" name="gender">
+                    hombre
+                </label>
+                <label for="gender">
+                    <input type="radio" name="gender">
+                    mujer
+                </label>
+                <label for="gender">
+                    <input type="radio" name="gender">
+                    otro
+                </label>
+            </p><br><br>
+            <p>
+                <label for="terminos">
+                    <input type="radio" name="si" id="terminos" required>
+                    Acepto términos y condiciones
+                </label>
+            </p>
+                <button type="submit" class="boton">Registrarte</button>
+            </form>
+        </article>
+    </main>
+</body>
+<footer>
+<p class="derechos-reservados">Todos los derechos reservados a FRONT END 1</p>
+</footer>
+</html>
